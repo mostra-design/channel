@@ -1,0 +1,38 @@
+{
+  "name": "@mostra-design/channel",
+  "version": "0.1.0",
+  "description": "Brings comments from mostra into a running Claude Code session as they're posted.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostra-design/channel.git"
+  },
+  "homepage": "https://mostra.design",
+  "keywords": [
+    "claude-code",
+    "channel",
+    "mcp",
+    "mostra",
+    "feedback"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "type": "module",
+  "bin": {
+    "mostra-channel": "bin/mostra-channel.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
